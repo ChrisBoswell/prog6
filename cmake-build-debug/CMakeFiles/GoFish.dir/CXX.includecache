@@ -12,29 +12,15 @@ iostream
 string
 -
 
-C:/Users/echen/OneDrive/Documents/312_prog06/deck.cpp
-deck.h
-C:/Users/echen/OneDrive/Documents/312_prog06/deck.h
-
-C:/Users/echen/OneDrive/Documents/312_prog06/deck.h
-card.h
-C:/Users/echen/OneDrive/Documents/312_prog06/card.h
-
-C:/Users/echen/OneDrive/Documents/312_prog06/main.cpp
-iostream
--
-cstdlib
--
-card.h
-C:/Users/echen/OneDrive/Documents/312_prog06/card.h
-player.h
-C:/Users/echen/OneDrive/Documents/312_prog06/player.h
-deck.h
-C:/Users/echen/OneDrive/Documents/312_prog06/deck.h
-
 C:/Users/echen/OneDrive/Documents/312_prog06/player.cpp
 player.h
 C:/Users/echen/OneDrive/Documents/312_prog06/player.h
+card.h
+C:/Users/echen/OneDrive/Documents/312_prog06/card.h
+ctime
+-
+cstdlib
+-
 
 C:/Users/echen/OneDrive/Documents/312_prog06/player.h
 iostream

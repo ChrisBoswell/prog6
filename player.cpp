@@ -5,6 +5,7 @@
 
 
 #include "player.h"
+#include "card.h"
 #include <ctime>
 #include <cstdlib>
 
@@ -74,16 +75,24 @@
 
     string Player::showHand() const {
         string Hand;
-        for(std::vector<Card>::const_iterator i = myHand.begin(); i != myHand.end(); ++i){
-                ;
-            }
-            return "";
+        for(Card test : myHand){
+            cout << test.toString();
+            printf("\n");
+            Hand += test.toString();
+            Hand += "\n";
+        }
+        return Hand;
     }
 
     string Player::showBooks() const {
-        for(std::vector<Card>::const_iterator i = myBook.begin(); i != myBook.end(); ++i){
-                std::cout << *i << "";
-            }
+        string book;
+        for(Card test : myBook){
+            cout << test.toString();
+            printf("\n");
+            book += test.toString();
+            book += "\n";
+        }
+        return book;
     }
 
     int Player::getHandSize() const {
@@ -95,4 +104,3 @@
             int size = myBook.size();
             return size;
     }
-    

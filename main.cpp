@@ -25,32 +25,7 @@ int main( )
     cout << p1.getName() <<" has : " << p1.showHand() << endl;
     cout << p2.getName() <<" has : " << p2.showHand() << endl; */
 
-    Card c(5, Card::Suit::hearts);
-    Card f(13, Card::Suit::hearts);
-    string s = c.toString();
-    cout<<s;
-    s = f.toString();
-    cout<<s;
-    printf("\n");
-    c.setRank(13);
-    bool b = c==f;
-
-    if(b == 0){
-        printf("0");
-    }
-    else printf("1");
-
-    b = c!=f;
-    if(b == 0){
-        printf("0");
-    }
-    else printf("1");
-
-    b = c.sameSuitAs(f);
-    if(b == 0){
-        printf("0");
-    }
-    else printf("1");
+    Deck d();
 
 
 
