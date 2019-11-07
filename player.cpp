@@ -5,8 +5,8 @@
 
 
 #include "player.h"
-#include <time.h>
-#include <stdlib.h>
+#include <ctime>
+#include <cstdlib>
 
     void Player::addCard(Card c) {
         myHand.push_back(c);
@@ -36,11 +36,16 @@
     }
 
     bool Player::rankInHand(Card c) const {
-
+        for(Card test : myHand){
+            if(c.getRank() == test.getRank()){
+                return true;
+            }
+        }
+        return false;
     }
 
     Card Player::chooseCardFromHand() const {
-        srand(time(NULL)); //seed random gen
+        srand(time(nullptr)); //seed random gen
         int card = rand() % myHand.size() -1;
         return myHand[card];
     }
@@ -55,8 +60,7 @@
     }
 
     Card Player::removeCardFromHand(Card c) { //!!This function has no error checking!
-        vector<Card>::iterator pos = myHand.begin();
-        int i = 0;
+        auto pos = myHand.begin();
         Card target;
         for(Card test : myHand){
             if(test == c){
@@ -84,11 +88,4 @@
     
     }
 
-    bool Player::checkHandForPair(Card &c1, Card &c2) {
-    
-    }
 
-    bool Player::sameRankInHand(Card c) const {
-    
-    }
-        
