@@ -1,12 +1,8 @@
 //
 // Created by Christian's PC on 11/5/2019.
 //
-
-//
-// Created by Christian's PC on 11/5/2019.
-//
 #include "deck.h"
-
+using namespace std;
 
     Deck::Deck(){
             int indexCounter = 0;
@@ -23,7 +19,7 @@
     int arrayLength = sizeof(myCards);
     int oneArray = sizeof(myCards[0]);
     int length = arrayLength / oneArray;
-    if(length == 0){
+    if(length < 2){
         return;
     }
     for(int iterations = 0; iterations < 50; iterations++) {
@@ -37,3 +33,14 @@
     }
 
 }
+        int Deck::setMyIndex() {
+          int index = 0;
+          return index;
+}
+
+        Card Deck::dealCard() {
+        int index = getMyIndex();
+        Card c1 = myCards[index];
+        setMyIndex(index);
+        return c1;
+    }
