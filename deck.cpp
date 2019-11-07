@@ -35,6 +35,10 @@ using namespace std;
             myCards[rand2] = temp1;
         }
     }
+    int Deck::setMyIndex(int i) {
+        int index = i;
+        return index;
+    }
     int Deck::setMyIndex() {
         int index = 0;
         return index;
@@ -45,4 +49,8 @@ using namespace std;
         Card c1 = myCards[index];
         setMyIndex(index);
         return c1;
+    }
+
+    int Deck::getMyIndex() {
+        return myIndex;
     }

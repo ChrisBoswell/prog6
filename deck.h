@@ -36,7 +36,12 @@ public:
 
     int  size() const; // # cards left in the deck
 
-private:
+    int setMyIndex(int i);
+    int setMyIndex();
+    int getMyIndex();
+
+
+        private:
 
     Card myCards[SIZE];
     int myIndex;  // current card to deal
