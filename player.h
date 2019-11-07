@@ -6,7 +6,7 @@
 // 1/22/08 (revised 9/2/08)
 // This class represents a player in a card game that takes "tricks"
 // The "Books" represent a container for holding tricks
-/*
+
 #ifndef _PLAYER_H
 #define _PLAYER_H
 
@@ -89,4 +89,3 @@ private:
 
 
 #endif
- */
