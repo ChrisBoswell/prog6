@@ -69,26 +69,27 @@
     }
 
     string Player::showHand() const {
-    
+        string Hand;
+        for(std::vector<Card>::const_iterator i = myHand.begin(); i != myHand.end(); ++i){
+                ;
+            }
+            return "";
     }
 
     string Player::showBooks() const {
-    
+        for(std::vector<Card>::const_iterator i = myBook.begin(); i != myBook.end(); ++i){
+                std::cout << *i << "";
+            }
     }
 
     int Player::getHandSize() const {
-    
+            int size = myHand.size();
+            return size;
     }
 
     int Player::getBookSize() const {
-    
+            int size = myBook.size();
+            return size;
     }
 
-    bool Player::checkHandForPair(Card &c1, Card &c2) {
-    
-    }
-
-    bool Player::sameRankInHand(Card c) const {
-    
-    }
         
