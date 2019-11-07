@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug"/>
+				<Option working_dir="C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="GoFish_">
-				<Option output="C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/GoFish_.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug"/>
+				<Option output="C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/GoFish_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 GoFish_"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 GoFish_"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="GoFish_/fast">
-				<Option output="C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/GoFish_.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug"/>
+				<Option output="C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/GoFish_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,55 +53,55 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 GoFish_/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 GoFish_/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug"/>
+				<Option working_dir="C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug"/>
+				<Option working_dir="C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/card.cpp">
+		<Unit filename="C:/Users/echen/OneDrive/Documents/312_prog06/card.cpp">
 			<Option target="GoFish_"/>
 		</Unit>
-		<Unit filename="C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/card.h">
+		<Unit filename="C:/Users/echen/OneDrive/Documents/312_prog06/card.h">
 			<Option target="GoFish_"/>
 		</Unit>
-		<Unit filename="C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/deck.cpp">
+		<Unit filename="C:/Users/echen/OneDrive/Documents/312_prog06/deck.cpp">
 			<Option target="GoFish_"/>
 		</Unit>
-		<Unit filename="C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/deck.h">
+		<Unit filename="C:/Users/echen/OneDrive/Documents/312_prog06/deck.h">
 			<Option target="GoFish_"/>
 		</Unit>
-		<Unit filename="C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/main.cpp">
+		<Unit filename="C:/Users/echen/OneDrive/Documents/312_prog06/main.cpp">
 			<Option target="GoFish_"/>
 		</Unit>
-		<Unit filename="C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/player.cpp">
+		<Unit filename="C:/Users/echen/OneDrive/Documents/312_prog06/player.cpp">
 			<Option target="GoFish_"/>
 		</Unit>
-		<Unit filename="C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/player.h">
+		<Unit filename="C:/Users/echen/OneDrive/Documents/312_prog06/player.h">
 			<Option target="GoFish_"/>
 		</Unit>
-		<Unit filename="C:/Users/Christian&apos;s PC/CLionProjects/GoFish!/CMakeLists.txt">
+		<Unit filename="C:/Users/echen/OneDrive/Documents/312_prog06/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

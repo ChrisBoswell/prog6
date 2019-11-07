@@ -7,10 +7,11 @@
 #include "deck.h"
 using namespace std;
 // PROTOTYPES for functions used by this demonstration program:
-void dealHand(Deck &d, Player &p, int numCards);
+//void dealHand(Deck &d, Player &p, int numCards);
 
 int main( )
 {
+    /*
     int numCards = 5;
     Player p1("Joe");
     Player p2("Jane");
@@ -22,15 +23,46 @@ int main( )
     dealHand(d, p2, numCards);
 
     cout << p1.getName() <<" has : " << p1.showHand() << endl;
-    cout << p2.getName() <<" has : " << p2.showHand() << endl;
+    cout << p2.getName() <<" has : " << p2.showHand() << endl; */
+
+    Card c(5, Card::Suit::hearts);
+    Card f(13, Card::Suit::hearts);
+    string s = c.toString();
+    cout<<s;
+    s = f.toString();
+    cout<<s;
+    printf("\n");
+    c.setRank(13);
+    bool b = c==f;
+
+    if(b == 0){
+        printf("0");
+    }
+    else printf("1");
+
+    b = c!=f;
+    if(b == 0){
+        printf("0");
+    }
+    else printf("1");
+
+    b = c.sameSuitAs(f);
+    if(b == 0){
+        printf("0");
+    }
+    else printf("1");
+
+
 
     return EXIT_SUCCESS;
 }
+
+/*
 void dealHand(Deck &d, Player &p, int numCards)
 {
     for (int i=0; i < numCards; i++)
         p.addCard(d.dealCard());
-}
+}*/
 
 
 

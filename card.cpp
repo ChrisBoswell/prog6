@@ -1,26 +1,33 @@
 //
 // Created by Christian's PC on 11/5/2019.
 //
-#import "card.h"
-
+#include "card.h"
+using namespace std;
     Card::Card(){
         setSuit(spades);
         setRank(1);
     }
+
     Card::Card(int rank, Suit s){
         setSuit(s);
         setRank(rank);
     }
     string Card::toString() const {
-        return rankConversion(getRank()) + suitString(this->mySuit);
-
+        return rankString(getRank()) + suitString(getSuit());
     }
+
     bool Card::sameSuitAs(const Card &c) const {
-
+        return (getSuit() == c.getSuit());
     }
+
     int Card::getRank() const {
         return myRank;
     }
+
+    Card::Suit Card::getSuit() const {
+        return mySuit;
+    }
+
     string Card::suitString(Card::Suit s) const {
         Suit cases;
         cases = s;
@@ -35,26 +42,9 @@
                 return "c";
         }
     }
+
     string Card::rankString(int r) const {
-
-    }
-    bool Card::operator!=(const Card &rhs) const {
-
-    }
-    bool Card::operator==(const Card &rhs) const {
-            if(myRank == rhs.getRank() && mySuit == rhs.suitString())
-    }
-
-    void Card::setRank(int r){
-        this -> myRank = r;
-    }
-
-    void Card::setSuit(Card::Suit s) {
-        this -> mySuit = s;
-    }
-
-    string Card::rankConversion(int rank) const {
-        switch(rank){
+        switch(r){
             case 1:
                 return "A";
             case 11:
@@ -64,7 +54,23 @@
             case 13:
                 return "K";
         }
-        return to_string(rank);
+        return to_string(r);
+    }
+
+    bool Card::operator!=(const Card &rhs) const {
+        return !(myRank == rhs.getRank() && mySuit == rhs.getSuit());
+    }
+
+    bool Card::operator==(const Card &rhs) const {
+        return (myRank == rhs.getRank() && mySuit == rhs.getSuit());
+    }
+
+    void Card::setRank(int r){
+        this -> myRank = r;
+    }
+
+    void Card::setSuit(Card::Suit s) {
+        this -> mySuit = s;
     }
 
 

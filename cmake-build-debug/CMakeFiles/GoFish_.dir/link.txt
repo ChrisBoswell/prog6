@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\GoFish_.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\GoFish_.dir/objects.a @CMakeFiles\GoFish_.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\GoFish_.dir/objects.a -Wl,--no-whole-archive  -o GoFish_.exe -Wl,--out-implib,libGoFish_.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\GoFish_.dir\linklibs.rsp

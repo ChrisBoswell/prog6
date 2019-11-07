@@ -1,3 +1,3 @@
-C:/Users/Christian's PC/CLionProjects/GoFish!/cmake-build-debug/CMakeFiles/GoFish_.dir
-C:/Users/Christian's PC/CLionProjects/GoFish!/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Christian's PC/CLionProjects/GoFish!/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/CMakeFiles/GoFish.dir
+C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/echen/OneDrive/Documents/312_prog06/cmake-build-debug/CMakeFiles/rebuild_cache.dir

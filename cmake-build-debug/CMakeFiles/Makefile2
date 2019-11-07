@@ -58,45 +58,45 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Christian's PC\CLionProjects\GoFish!"
+CMAKE_SOURCE_DIR = C:\Users\echen\OneDrive\Documents\312_prog06
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Christian's PC\CLionProjects\GoFish!\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\echen\OneDrive\Documents\312_prog06\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/GoFish_.dir
+# Target rules for target CMakeFiles/GoFish.dir
 
 # All Build rule for target.
-CMakeFiles/GoFish_.dir/all:
-	$(MAKE) -f CMakeFiles\GoFish_.dir\build.make CMakeFiles/GoFish_.dir/depend
-	$(MAKE) -f CMakeFiles\GoFish_.dir\build.make CMakeFiles/GoFish_.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Christian's PC\CLionProjects\GoFish!\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5 "Built target GoFish_"
-.PHONY : CMakeFiles/GoFish_.dir/all
+CMakeFiles/GoFish.dir/all:
+	$(MAKE) -f CMakeFiles\GoFish.dir\build.make CMakeFiles/GoFish.dir/depend
+	$(MAKE) -f CMakeFiles\GoFish.dir\build.make CMakeFiles/GoFish.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\echen\OneDrive\Documents\312_prog06\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target GoFish"
+.PHONY : CMakeFiles/GoFish.dir/all
 
 # Include target in all.
-all: CMakeFiles/GoFish_.dir/all
+all: CMakeFiles/GoFish.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/GoFish_.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Christian's PC\CLionProjects\GoFish!\cmake-build-debug\CMakeFiles" 5
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/GoFish_.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Christian's PC\CLionProjects\GoFish!\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/GoFish_.dir/rule
+CMakeFiles/GoFish.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\echen\OneDrive\Documents\312_prog06\cmake-build-debug\CMakeFiles 5
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/GoFish.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\echen\OneDrive\Documents\312_prog06\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/GoFish.dir/rule
 
 # Convenience name for target.
-GoFish_: CMakeFiles/GoFish_.dir/rule
+GoFish: CMakeFiles/GoFish.dir/rule
 
-.PHONY : GoFish_
-
-# clean rule for target.
-CMakeFiles/GoFish_.dir/clean:
-	$(MAKE) -f CMakeFiles\GoFish_.dir\build.make CMakeFiles/GoFish_.dir/clean
-.PHONY : CMakeFiles/GoFish_.dir/clean
+.PHONY : GoFish
 
 # clean rule for target.
-clean: CMakeFiles/GoFish_.dir/clean
+CMakeFiles/GoFish.dir/clean:
+	$(MAKE) -f CMakeFiles\GoFish.dir\build.make CMakeFiles/GoFish.dir/clean
+.PHONY : CMakeFiles/GoFish.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/GoFish.dir/clean
 
 .PHONY : clean
 
