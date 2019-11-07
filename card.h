@@ -43,6 +43,7 @@ public:
     string rankString(int r)       const;  // return "A", "2", ..."Q"
     bool operator == (const Card& rhs) const;
     bool operator != (const Card& rhs) const;
+    string rankConversion(int rank) const;
 
 private:
     int myRank;
