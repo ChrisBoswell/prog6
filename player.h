@@ -63,6 +63,9 @@ public:
     int getHandSize() const;
     int getBookSize() const;
 
+    Card returnRankCard(Card c) const;
+    Card returnIndexCard(int i) const;
+
     //OPTIONAL
     // comment out if you decide to not use it
     //this function will check a players hand for a pair.
@@ -76,6 +79,8 @@ public:
     //e.g. will return true if the player has a 7d and the parameter is 7c
 
     //bool sameRankInHand(Card c) const;
+
+
 
 
 private:

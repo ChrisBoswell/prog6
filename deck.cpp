@@ -6,6 +6,7 @@ using namespace std;
 
     Deck::Deck(){
         int indexCounter = 0;
+        setMyIndex(0);
         for(int suitDeck = 0; suitDeck < 4; suitDeck++){
             //Changes Suit
             for(int rankDeck = 1; rankDeck < 14; rankDeck++){
@@ -26,8 +27,9 @@ using namespace std;
 
 
         for(int iterations = 0; iterations < 50; iterations++) {
-            int rand1 = rand() % length;
-            int rand2 = rand() % length;
+
+            int rand1 = getMyIndex() + (rand() % (51 - getMyIndex()));
+            int rand2 = getMyIndex() + (rand() % (51 - getMyIndex()));
             Card temp1 = myCards[rand1];
             Card temp2 = myCards[rand2];
             //Swap them now
@@ -35,20 +37,19 @@ using namespace std;
             myCards[rand2] = temp1;
         }
     }
-    int Deck::setMyIndex(int i) {
-        int index = i;
-        return index;
+    void Deck::setMyIndex(int i) {
+        myIndex = i;
     }
-    int Deck::setMyIndex() {
-        int index = 0;
-        return index;
-    }
+
 
     Card Deck::dealCard() {
         int index = getMyIndex();
-        Card c1 = myCards[index];
-        setMyIndex(index);
-        return c1;
+        if(index < 52) {
+            Card c1 = myCards[index];
+            setMyIndex(index + 1);
+            return c1;
+        }
+
     }
 
     int Deck::getMyIndex() {

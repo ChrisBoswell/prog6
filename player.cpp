@@ -24,9 +24,9 @@
         Card comp2;
         for(int i = 0; i < size - 1; i++){
             comp1 = myHand[i];
-            for(int j = i; j < size; j++){
+            for(int j = i+1; j < size; j++){
                 comp2 = myHand[j];
-                if(comp1 == comp2){
+                if(comp1.getRank() == comp2.getRank()){
                     c1 = comp1;
                     c2 = comp2;
                     return true;
@@ -46,9 +46,12 @@
     }
 
     Card Player::chooseCardFromHand() const {
-        srand(time(nullptr)); //seed random gen
-        int card = rand() % myHand.size() -1;
-        return myHand[card];
+        if(myHand.size()>1) {
+            srand(time(nullptr)); //seed random gen
+            int card = rand() % (myHand.size() - 1);
+            return myHand[card];
+        }
+        else return myHand[0];
     }
 
     bool Player::cardInHand(Card c) const {
@@ -76,10 +79,10 @@
     string Player::showHand() const {
         string Hand;
         for(Card test : myHand){
-            cout << test.toString();
-            printf("\n");
+            //cout << test.toString();
+            //printf("\n");
             Hand += test.toString();
-            Hand += "\n";
+            Hand += " ";
         }
         return Hand;
     }
@@ -87,10 +90,10 @@
     string Player::showBooks() const {
         string book;
         for(Card test : myBook){
-            cout << test.toString();
-            printf("\n");
+            //cout << test.toString();
+            //printf("\n");
             book += test.toString();
-            book += "\n";
+            book += " ";
         }
         return book;
     }
@@ -103,4 +106,17 @@
     int Player::getBookSize() const {
             int size = myBook.size();
             return size;
+    }
+
+    Card Player::returnRankCard(Card c) const {
+        int targetRank = c.getRank();
+        for(Card test : myHand){
+            if(test.getRank() == targetRank){
+                return test;
+            }
+        }
+    }
+
+    Card Player::returnIndexCard(int i) const {
+        return myHand[i];
     }

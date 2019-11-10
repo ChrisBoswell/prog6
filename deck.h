@@ -36,8 +36,7 @@ public:
 
     int  size() const; // # cards left in the deck
 
-    int setMyIndex(int i);
-    int setMyIndex();
+    void setMyIndex(int i);
     int getMyIndex();
 
 
