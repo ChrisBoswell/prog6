@@ -1,212 +1,194 @@
-Output file created succesfully 
+Output file created successfully 
 The starting card configurations: 
 Eric has 9c 4h 3c 5h 2c  and 
 Christian has 6d 2h 10s  and 6h 6c 
-priebe has Ad Qs 8d 4c 10d  and 
-Eric requests card with same rank as 5h
+Priebe has Ad Qs 8d 4c 10d  and 
+
+
+Eric requests card with same rank as 9c
 Christian: Go Fish
 Eric draws Kh
 
-Christian requests card with same rank as 2h
-priebe: Go Fish
+Christian requests card with same rank as 6d
+Priebe: Go Fish
 Christian draws 5d
 
-priebe requests card with same rank as 4c
-Eric gives priebe 4h
-
-Eric requests card with same rank as 2c
-Christian gives Eric 2h
-
-Christian requests card with same rank as 10s
-priebe gives Christian 10d
-
-priebe requests card with same rank as Qs
+Priebe requests card with same rank as Ad
 Eric: Go Fish
-priebe draws Qc
+Priebe draws Qc
+
+Eric requests card with same rank as 3c
+Christian: Go Fish
+Eric draws 7s
+
+Christian requests card with same rank as 6d
+Priebe: Go Fish
+Christian draws Ks
+
+Priebe requests card with same rank as Ad
+Eric: Go Fish
+Priebe draws 8h
+
+Eric requests card with same rank as 9c
+Christian: Go Fish
+Eric draws 9h
+
+Christian requests card with same rank as 6d
+Priebe: Go Fish
+Christian draws 3h
+
+Priebe requests card with same rank as Ad
+Eric: Go Fish
+Priebe draws 2d
 
 Eric requests card with same rank as 5h
 Christian gives Eric 5d
 
 Christian requests card with same rank as 6d
-priebe: Go Fish
-Christian draws 7s
+Priebe: Go Fish
+Christian draws Qh
 
-priebe requests card with same rank as Ad
+Priebe requests card with same rank as Ad
 Eric: Go Fish
-priebe draws Ks
+Priebe draws As
+
+Eric requests card with same rank as 4h
+Christian: Go Fish
+Eric draws 8s
+
+Christian requests card with same rank as 10s
+Priebe gives Christian 10d
+
+Priebe requests card with same rank as 4c
+Eric gives Priebe 4h
 
 Eric requests card with same rank as 3c
-Christian: Go Fish
-Eric draws 8h
+Christian gives Eric 3h
 
 Christian requests card with same rank as 6d
-priebe: Go Fish
-Christian draws 9h
+Priebe: Go Fish
+Christian draws Jh
 
-priebe requests card with same rank as 8d
-Eric gives priebe 8h
+Priebe requests card with same rank as 2d
+Eric gives Priebe 2c
 
-Eric requests card with same rank as 3c
-Christian: Go Fish
-Eric draws 3h
+Eric requests card with same rank as Kh
+Christian gives Eric Ks
 
-Christian requests card with same rank as 7s
-priebe: Go Fish
-Christian draws 2d
-
-priebe requests card with same rank as Ad
-Eric: Go Fish
-priebe draws Qh
-
-Eric requests card with same rank as 9c
-Christian gives Eric 9h
-
-Christian requests card with same rank as 7s
-priebe: Go Fish
-Christian draws As
-
-priebe requests card with same rank as Ks
-Eric gives priebe Kh
-
-Eric draws 8s
-Eric requests card with same rank as 8s
-Christian: Go Fish
-Eric draws Jh
-
-Christian requests card with same rank as 2d
-priebe: Go Fish
+Christian requests card with same rank as 6d
+Priebe: Go Fish
 Christian draws 3d
 
-priebe requests card with same rank as Ad
+Priebe draws 10h
+Priebe requests card with same rank as 10h
 Eric: Go Fish
-priebe draws 10h
+Priebe draws 9s
+
+Eric requests card with same rank as 7s
+Christian: Go Fish
+Eric draws Js
+
+Christian requests card with same rank as 6d
+Priebe: Go Fish
+Christian draws 7h
+
+Priebe requests card with same rank as 10h
+Eric: Go Fish
+Priebe draws 7d
+
+Eric requests card with same rank as 7s
+Christian gives Eric 7h
+
+Christian requests card with same rank as 6d
+Priebe: Go Fish
+Christian draws 4s
+
+Priebe requests card with same rank as 10h
+Eric: Go Fish
+Priebe draws 9d
 
 Eric requests card with same rank as 8s
 Christian: Go Fish
-Eric draws 9s
+Eric draws Jd
 
-Christian requests card with same rank as As
-priebe gives Christian Ad
+Christian requests card with same rank as Qh
+Priebe: Go Fish
+Christian draws 5s
 
-priebe requests card with same rank as Qh
+Priebe requests card with same rank as 10h
 Eric: Go Fish
-priebe draws Js
-
-Eric requests card with same rank as Jh
-Christian: Go Fish
-Eric draws 7h
-
-Christian requests card with same rank as 2d
-priebe: Go Fish
-Christian draws 7d
-
-priebe requests card with same rank as 10h
-Eric: Go Fish
-priebe draws 4s
-
-Eric requests card with same rank as 9s
-Christian: Go Fish
-Eric draws 9d
-
-Christian requests card with same rank as 2d
-priebe: Go Fish
-Christian draws Jd
-
-priebe requests card with same rank as Js
-Eric gives priebe Jh
+Priebe draws Kd
 
 Eric requests card with same rank as 8s
 Christian: Go Fish
-Eric draws 5s
+Eric draws Qd
 
-Christian requests card with same rank as 3d
-priebe: Go Fish
-Christian draws Kd
+Christian requests card with same rank as 6d
+Priebe: Go Fish
+Christian draws Ah
 
-priebe requests card with same rank as 10h
+Priebe requests card with same rank as 10h
 Eric: Go Fish
-priebe draws Qd
+Priebe draws 7c
 
 Eric requests card with same rank as 8s
 Christian: Go Fish
-Eric draws Ah
+Eric draws 2s
 
-Christian requests card with same rank as 2d
-priebe: Go Fish
-Christian draws 7c
+Christian requests card with same rank as 5s
+Priebe: Go Fish
+Christian draws Ac
 
-priebe requests card with same rank as 10h
+Priebe requests card with same rank as 10h
 Eric: Go Fish
-priebe draws 2s
-
-Eric requests card with same rank as 5s
-Christian: Go Fish
-Eric draws Ac
-
-Christian requests card with same rank as Jd
-priebe: Go Fish
-Christian draws 6s
-
-priebe requests card with same rank as 4s
-Eric: Go Fish
-priebe draws 10c
-
-Eric requests card with same rank as 7h
-Christian gives Eric 7c
-
-Christian requests card with same rank as Jd
-priebe: Go Fish
-Christian draws 8c
-
-priebe requests card with same rank as 4s
-Eric: Go Fish
-priebe draws 3s
+Priebe draws 6s
 
 Eric requests card with same rank as 8s
-Christian gives Eric 8c
-
-Christian requests card with same rank as Jd
-priebe: Go Fish
-Christian draws 4d
-
-priebe requests card with same rank as 4s
-Eric: Go Fish
-priebe draws Jc
-
-Eric requests card with same rank as 5s
 Christian: Go Fish
-Eric draws 5c
+Eric draws 10c
 
-Christian requests card with same rank as 2d
-priebe gives Christian 2s
+Christian requests card with same rank as 6d
+Priebe gives Christian 6s
 
-priebe requests card with same rank as 4s
+Priebe requests card with same rank as 10h
+Eric gives Priebe 10c
+
+Eric requests card with same rank as 8s
+Christian: Go Fish
+Eric draws 8c
+
+Christian requests card with same rank as Jh
+Priebe: Go Fish
+Christian draws 3s
+
+Priebe requests card with same rank as Kd
 Eric: Go Fish
-priebe draws Kc
+Priebe draws 4d
 
+Eric requests card with same rank as Qd
+Christian gives Eric Qh
 
-Christian requests card with same rank as Kd
-priebe gives Christian Kc
+Christian requests card with same rank as 2h
+Priebe: Go Fish
+Christian draws Jc
 
-priebe requests card with same rank as 4s
+Priebe requests card with same rank as Kd
 Eric: Go Fish
+Priebe draws 5c
 
+Eric requests card with same rank as 2s
+Christian gives Eric 2h
 
-Christian requests card with same rank as 3d
-priebe gives Christian 3s
+Christian requests card with same rank as 4s
+Priebe gives Christian 4d
 
-priebe requests card with same rank as 4s
+Priebe requests card with same rank as Kd
 Eric: Go Fish
+Priebe draws Kc
 
 
-Christian requests card with same rank as Jd
-priebe gives Christian Jc
+Christian requests card with same rank as 5s
+Priebe gives Christian 5c
 
-priebe requests card with same rank as 4s
-Eric: Go Fish
-
-
-Christian requests card with same rank as 4d
-priebe gives Christian 4s
-
-The winner isChristian
+The winners are Eric, Priebe, 
+The game has concluded. Exiting with exit code 0

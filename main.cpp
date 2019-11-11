@@ -16,12 +16,12 @@ void bookWin(Player &p, Card c1, Card c2);
 int main() {
     ofstream output;
     output.open("gofish_results.txt");
-    output << "Output file created succesfully \n";
+    output << "Output file created successfully \n";
 
     vector <Player> players;
     Player eric("Eric");
     Player christian("Christian");
-    Player priebe ("priebe");
+    Player priebe ("Priebe");
 
     players.push_back(eric);
     players.push_back(christian);
@@ -30,6 +30,7 @@ int main() {
 
     if(numPlayers <= 1){
         output << "Illegal Player Count. Exiting with code" << EXIT_FAILURE;
+        output.close();
         return EXIT_FAILURE;
     }
 
@@ -72,6 +73,7 @@ int main() {
     int counterParty = 0;
     bool gameStatus = true;
     Card newCard;
+    int loopCount = 0; //to prevent clusterfuck of infinite looping
     //stop playing when the cards run out
     while(gameStatus && !tie){
 
@@ -133,6 +135,14 @@ int main() {
         currentPlayer = (currentPlayer + 1) % numPlayers;
         cout << "\n";
         output << "\n"; //THE TURN ENDS HERE
+
+        //prevents an infinite loop clusterfuck
+        loopCount++;
+        if(loopCount >= 1000){
+            output << "Infinite loop detected. Exiting with code " << EXIT_FAILURE;
+            output.close();
+            return EXIT_FAILURE;
+        }
 
         //DEBUG OUTPUT
         string debug0 = players[0].showHand();
@@ -215,7 +225,8 @@ int main() {
         cout << "The winners are " << winnerList;
         output << "The winners are " << winnerList;
     }
-
+    output << "\n" << "The game has concluded. Exiting with exit code " << EXIT_SUCCESS;
+    output.close();
     return EXIT_SUCCESS;
 }
 
