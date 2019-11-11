@@ -33,14 +33,14 @@ public:
     }
 
     void addCard(Card c);  //adds a card to the hand
-    void bookCards(Card c1, Card c2);
+    void bookCards(Card c1, Card c2); //adds c1 and c2 to myBook
 
     //OPTIONAL
     // comment out if you decide to not use it
     //this function will check a players hand for a pair.
     //If a pair is found, it returns true and populates the two variables with the cards tha make the pair.
 
-    bool checkHandForBook(Card &c1, Card &c2);
+    bool checkHandForBook(Card &c1, Card &c2); //returns true if 2 cards of the same rank are in myHand and stores those cards in c1,c2
 
     //OPTIONAL
     // comment out if you decide to not use it
@@ -57,13 +57,18 @@ public:
     //Remove the card c from the hand and return it to the caller
     Card removeCardFromHand(Card c);
 
+    //converts the hand and book to strings
     string showHand() const;
     string showBooks() const;
 
+    //returns number of items in hand and book
     int getHandSize() const;
     int getBookSize() const;
 
+    //returns the first card that has the same rank as card c
     Card returnRankCard(Card c) const;
+
+    //returns the ith card in myHand
     Card returnIndexCard(int i) const;
 
     //OPTIONAL

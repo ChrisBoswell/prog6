@@ -51,7 +51,9 @@
             int card = rand() % (myHand.size() - 1);
             return myHand[card];
         }
-        else return myHand[0];
+        else if(myHand.size() == 1){
+            return myHand[0];
+        }
     }
 
     bool Player::cardInHand(Card c) const {

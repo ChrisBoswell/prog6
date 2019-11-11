@@ -21,6 +21,8 @@ iostream
 -
 cstdlib
 -
+fstream
+-
 card.h
 C:/Users/echen/OneDrive/Documents/312_prog06/card.h
 player.h
